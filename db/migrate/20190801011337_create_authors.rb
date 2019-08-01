@@ -3,7 +3,7 @@ class CreateAuthors < ActiveRecord::Migration[5.0]
     create_table :authors do |t|
       t.string :name
       t.string :genre
-      t.text :bii
+      t.text :bio
 
       t.timestamps
     end
